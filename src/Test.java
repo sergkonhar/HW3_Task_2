@@ -42,7 +42,7 @@ public class Test {
            }
            if(secondGender.equals("woman")){
                Woman Woman2 = new Woman();
-               Woman2.setGender(true);
+               Woman2.setGender(false);
                System.out.println("\n"+"Enter her name");
                String hisName2 = multyVariable.next();
                Woman2.setName(hisName2);
@@ -60,7 +60,7 @@ public class Test {
        }
         if(genderFirstOne.equals("woman")){
             Woman Woman1 = new Woman();
-            Woman1.setGender(true);
+            Woman1.setGender(false);
             System.out.println("\n"+"Enter her name");
             String hisName = multyVariable.next();
             Woman1.setName(hisName);
@@ -94,7 +94,7 @@ public class Test {
             }
             if(secondGender.equals("woman")){
                 Woman Woman2 = new Woman();
-                Woman2.setGender(true);
+                Woman2.setGender(false);
                 System.out.println("\n"+"Enter her name");
                 String hisName2 = multyVariable.next();
                 Woman2.setName(hisName2);
