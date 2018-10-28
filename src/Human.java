@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Human {
+public abstract class Human {
     boolean gender;
     String name;
     String lastname;
@@ -155,16 +155,9 @@ public class Human {
     }
 
 
-  Human additionalMethod(Human partner){
-
-        return new Human();
-  }
-Human makeARelations(Human partner){
-        if(speak(partner)){
-
-        }
+     Human makeRalations(Human partner){
 
         return null;
-}
+     }
 
 }
