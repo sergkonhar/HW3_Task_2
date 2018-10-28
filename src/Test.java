@@ -13,7 +13,7 @@ public class Test {
        Human a =  baba.giveBirthTo(nick);
        a.setHeight(10);
         System.out.println(a.toString());
-
+        baba.makeARelations(nick);
     }
 
 }

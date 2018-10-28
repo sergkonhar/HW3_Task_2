@@ -38,7 +38,8 @@ return null;
         newMan.setLastname(partner.getLastname());
         newMan.setHeight((float) ((partner.getHeight()+(getHeight()*0.1)))-getHeight());
         newMan.setWeight((float) ((partner.getWeight()+(getWeight() * 0.1 )))-getWeight());
-
+            System.out.println("\n"+ "The new man" + "\n"+newMan.toString());
+        return newMan;
         }
         if(genderFor<50){
             Woman newWoman = new Woman();
@@ -48,7 +49,11 @@ return null;
             String name = parameters.next();
             newWoman.setName(name);
         newWoman.setLastname(partner.getLastname());
+        newWoman.setHeight((float) ((getHeight()+(partner.getHeight()*0.1)))-partner.getHeight());
+        newWoman.setWeight((float) ((getWeight()+(partner.getWeight()*0.1))-partner.getWeight() ));
+            System.out.println("\n"+"The new woman"+"\n"+newWoman.toString());
+        return newWoman;
         }
-        return baby;
+        return null;
     }
 }

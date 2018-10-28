@@ -159,5 +159,12 @@ public class Human {
 
         return new Human();
   }
+Human makeARelations(Human partner){
+        if(speak(partner)){
+
+        }
+
+        return null;
+}
 
 }
